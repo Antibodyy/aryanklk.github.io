@@ -1,152 +1,189 @@
 {
   "basics": {
     "name": "Aryan Kulkarni",
+    "label": "Mechanical Engineering Graduate Student",
     "email": "aryanklk@berkeley.edu",
-    "phone": "(+1) 510-365-9957",
-    "website": "https://academicpages.github.io",
-    "summary": "Graduate Mechanical Engineer Student at UC Berkeley",
+    "phone": "510-365-9957",
+    "website": "",
+    "summary": "Mechanical engineering graduate student at UC Berkeley with hands-on FEA, thermal analysis, and 3D CAD experience. Passionate about design and fabrication of electro-mechanical systems for semiconductor manufacturing.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Berkeley",
       "countryCode": "US",
-      "region": ""
+      "region": "CA"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "network": "LinkedIn",
+        "username": "aryan-klk",
+        "url": "https://www.linkedin.com/in/aryan-klk"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "UBS",
+      "position": "Product Control Intern",
+      "website": "",
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "summary": "Capital Markets Financing | Mumbai, India",
+      "highlights": [
+        "Supported daily P&L reporting across major trading books with average run rates up to $300k",
+        "Investigated variances down to sub-attribute level, resolved breaks through ledger adjustments, validated figures with trading desk"
+      ]
+    },
+    {
+      "company": "Speed Engineering Solutions",
+      "position": "Mechanical Engineering Intern",
+      "website": "",
+      "startDate": "2024-05",
+      "endDate": "2024-07",
+      "summary": "Pune, India",
+      "highlights": [
+        "Performed FEA validation in ANSYS Workbench to assess pressure vessel integrity under complex thermal and mechanical loads",
+        "Executed structural, thermal, and harmonic analyses, identifying high-risk failure modes and critical design weaknesses",
+        "Implemented design changes to improve safety margin by 89%; prepared technical documentation and reports"
+      ]
+    },
+    {
+      "company": "Indira Gandhi Centre for Atomic Research",
+      "position": "Research Intern",
+      "website": "",
+      "startDate": "2023-05",
+      "endDate": "2023-07",
+      "summary": "Kalpakkam, India",
+      "highlights": [
+        "Studied mechanical degradation of nuclear reactor cooling pipes caused by sodium insulation interaction",
+        "Collaborated cross-functionally across 6 departments to run chemical and morphological evaluation under varying conditions",
+        "Delivered technical presentation on changes in bulk and surface properties, highlighting potential losses of over Rs. 4,000,000/day"
+      ]
+    },
+    {
+      "company": "BITS Pilani",
+      "position": "Undergraduate Teaching Assistant",
+      "website": "",
+      "startDate": "2024-01",
+      "endDate": "2024-05",
+      "summary": "Heat Transfer Lab",
+      "highlights": [
+        "Prepared comprehensive problem sets and assessments for a cohort of 200+ engineering students",
+        "Demonstrated and supervised lab experiments and provided academic support to the students, enhancing their course comprehension and performance"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "University of California, Berkeley",
+      "area": "Mechanical Engineering",
+      "studyType": "M.Eng.",
+      "startDate": "2025-08",
+      "endDate": "Present",
+      "gpa": "3.8/4.0",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "BITS Pilani",
+      "area": "Mechanical Engineering (Hons.)",
+      "studyType": "B.E.",
+      "startDate": "2021-08",
+      "endDate": "2025-05",
+      "gpa": "9.32/10.0",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "CAD & Design",
+      "level": "",
+      "keywords": [
+        "SolidWorks",
+        "Fusion 360",
+        "AutoCAD",
+        "KiCAD"
+      ]
+    },
+    {
+      "name": "Analysis",
+      "level": "",
+      "keywords": [
+        "ANSYS Workbench (Structural, Thermal, Harmonic, FEA)",
+        "MATLAB",
+        "SIMULINK",
+        "Heat Transfer",
+        "Stress Analysis"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C++",
+        "ROS2",
+        "Microsoft Office Suite"
+      ]
+    },
+    {
+      "name": "Lab & Prototyping",
+      "level": "",
+      "keywords": [
+        "3D Printing",
+        "Soldering",
+        "Solid Modeling",
+        "Design Validation"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "President, ISHRAE-BITS Pilani Student Chapter",
+      "date": "",
+      "awarder": "ISHRAE",
+      "summary": "Led chapter re-installation; secured Rs. 25,000 project grant; conducted design event with 150+ participants"
+    },
+    {
+      "title": "Berkeley SkyDeck ACE Program Certification",
+      "date": "",
+      "awarder": "UC Berkeley SkyDeck",
+      "summary": ""
+    },
+    {
+      "title": "Fung Institute Grant Awardee",
+      "date": "",
+      "awarder": "UC Berkeley",
+      "summary": ""
+    },
+    {
+      "title": "University Merit Scholarship",
+      "date": "",
+      "awarder": "BITS Pilani",
+      "summary": "Top 2%"
+    },
+    {
+      "title": "P&G Spotlight Top 50",
+      "date": "",
+      "awarder": "Procter & Gamble",
+      "summary": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Jagruti Seva Sanstha",
+      "position": "Volunteering Tutor",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "NPO for poverty alleviation based in Pune, India",
+      "highlights": []
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
