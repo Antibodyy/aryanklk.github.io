@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+I'm a mechanical engineering graduate student at UC Berkeley with hands-on experience in FEA, thermal analysis, and 3D CAD. My passion lies in the design and fabrication of electro-mechanical systems for semiconductor manufacturing.
+
 ## Current Work
 
 I'm currently pursuing my M.Eng. in Mechanical Engineering at UC Berkeley (GPA: 3.8/4.0), where I'm working on cutting-edge projects in manufacturing systems, PCB design, and automation. My recent work includes:
