@@ -23,7 +23,7 @@ repository               : "Antibodyy/aryanklk.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-v2.png"
   name             : "Aryan Kulkarni"
   pronouns         : # example: "she/her"
   bio              : "Mechanical engineering graduate student at UC Berkeley with hands-on FEA, thermal analysis, and 3D CAD experience. Passionate about design and fabrication of electro-mechanical systems for semiconductor manufacturing."
