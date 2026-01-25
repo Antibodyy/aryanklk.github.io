@@ -7,23 +7,25 @@ redirect_from:
   - /about.html
 ---
 
-I'm a mechanical engineering graduate student at UC Berkeley with hands-on experience in FEA, thermal analysis, and 3D CAD. My passion lies in the design and fabrication of electro-mechanical systems for semiconductor manufacturing.
+I am a mechanical engineering graduate student at UC Berkeley with hands-on experience in FEA, thermal analysis, and 3D CAD. My passion lies in the design and fabrication of electro-mechanical systems for semiconductor manufacturing.
 
 ## Current Work
 
-I'm currently pursuing my M.Eng. in Mechanical Engineering at UC Berkeley (GPA: 3.8/4.0), where I'm working on cutting-edge projects in manufacturing systems, PCB design, and automation. My recent work includes:
+I'm currently pursuing my M.Eng. in Mechanical Engineering at UC Berkeley (GPA: 3.8/4.0). My current projects and coursework include:
 
-- **HeliCAL Manufacturing System**: Executing structural and opto-mechanical design for a large-format novel lithography system, leading development of high-precision metrology setups with sub-micron accuracy
-- **EEG Signal Acquisition PCB**: Designed and debugged a custom PCB in KiCAD for high-sensitivity analog signal acquisition
-- **Automation & Robotics**: Building autonomous systems with SLAM and CNN-based navigation, plus MPC-based control for real-time stabilization
+- **HeliCAL Manufacturing System**: Large-format novel lithography-based, 3D printing technology
+- **Design of Microprocessor-based Mechanical Systems**: Course project involving embedded systems and mechatronics integration
+- **Next Generation Data Centers and Energy Management**: Course project focused on thermal management and energy efficiency optimization
+- **Deep Tech Innovation**: Startup consulting work on market research and product-market fit analysis for emerging technologies
 
 ## Background
 
-I completed my B.E. in Mechanical Engineering (Hons.) from BITS Pilani with a 9.32/10.0 GPA. During my undergraduate studies, I gained valuable industry experience through internships at:
+During my undergraduate studies at BITS Pilani (B.E. Mechanical Engineering, GPA: 9.32/10.0), I gained industry experience through internships:
 
-- **UBS** (Product Control, Capital Markets)
-- **Speed Engineering Solutions** (FEA validation and pressure vessel integrity analysis)
-- **Indira Gandhi Centre for Atomic Research** (Nuclear reactor cooling systems research)
+- **Product Control Intern** | UBS, Capital Markets Financing | Mumbai, India | Jan 2025 - May 2025
+- **Mechanical Engineering Intern** | Speed Engineering Solutions | Pune, India | May 2024 - Jul 2024
+- **Research Intern** | Indira Gandhi Centre for Atomic Research | Kalpakkam, India | May 2023 - Jul 2023
+- **Undergraduate Teaching Assistant** | BITS Pilani, Heat Transfer Lab | Pilani, India | Jan 2024 - May 2024
 
 ## Technical Expertise
 

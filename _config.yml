@@ -221,6 +221,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  coursework:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -265,6 +268,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _coursework
+  - scope:
+      path: ""
+      type: coursework
     values:
       layout: single
       author_profile: true
