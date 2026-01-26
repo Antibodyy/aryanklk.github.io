@@ -22,18 +22,17 @@ I'm currently pursuing my M.Eng. in Mechanical Engineering at UC Berkeley (GPA: 
 
 During my undergraduate studies at BITS Pilani (B.E. Mechanical Engineering, GPA: 9.32/10.0), I gained industry experience through internships:
 
-**Product Control Intern**
-UBS, Capital Markets Financing | Mumbai, India | Jan 2025 - May 2025
+**Product Control Intern, UBS Investment Bank**
+*Mumbai, India (Jan 2025 - May 2025)*
 
-**Mechanical Engineering Intern**
-Speed Engineering Solutions | Pune, India | May 2024 - Jul 2024
+**Mechanical Engineering Intern, Speed Engineering Solutions**
+*Pune, India (May 2024 - Jul 2024)*
 
-**Research Intern**
-Indira Gandhi Centre for Atomic Research | Kalpakkam, India | May 2023 - Jul 2023
+**Research Intern, Indira Gandhi Centre for Atomic Research**
+*Kalpakkam, India (May 2023 - Jul 2023)*
 
-**Undergraduate Teaching Assistant**
-BITS Pilani, Heat Transfer Lab | Pilani, India | Jan 2024 - May 2024
-- **Undergraduate Teaching Assistant** | BITS Pilani, Heat Transfer Lab | Pilani, India | Jan 2024 - May 2024
+**Undergraduate Teaching Assistant, BITS Pilani**
+*Pilani, India (Jan 2024 - May 2024)*
 
 ## Technical Expertise
 
