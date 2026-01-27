@@ -8,25 +8,25 @@ date: 2025-08-01
 location: "Berkeley, CA"
 ---
 
-Executing structural and opto-mechanical design for a large-format novel lithography system at UC Berkeley.
+Developing metrology systems, mechanical improvements, and motion control software for a large-format lithography-based 3D printing system.
 
-## Project Overview
+## My Contributions
 
-The HeliCAL Manufacturing System is a cutting-edge lithography project focused on developing high-precision manufacturing capabilities for advanced semiconductor and display applications.
+* **Designed and implemented a high-precision metrology system** with established tolerance budgeting to ensure sub-micron measurement accuracy across the large-format build area, enabling quality control for the manufacturing process
 
-## Key Contributions
+* **Executed structural and opto-mechanical design improvements** to enhance system rigidity, thermal stability, and optical alignment precision for the large-format lithography components, directly improving print quality and repeatability
 
-* **High-Precision Metrology Setup**: Leading the development of a metrology system with established tolerance budgeting to ensure sub-micron accuracy
-* **4-Axis Motion Control System**: Engineered a custom G-Code pipeline to synchronize hardware with optical projections
-* **Structural & Opto-Mechanical Design**: Responsible for the structural integrity and optical alignment of large-format lithography components
+* **Developed a custom 4-axis G-Code pipeline** to synchronize hardware motion control with optical projections, enabling precise layer-by-layer fabrication and expanding the system's manufacturing capabilities
 
-## Technologies Used
+## About HeliCAL
 
-* CAD: SolidWorks, Fusion 360
-* Motion Control: Custom G-Code pipeline
-* Analysis: Tolerance budgeting, precision metrology
-* Manufacturing: High-precision fabrication techniques
+HeliCAL is a cutting-edge additive manufacturing system that uses lithography-based projection techniques to enable large-format, high-precision 3D printing. The system combines optical projection with synchronized motion control to build parts with sub-micron accuracy at scales beyond conventional lithography systems.
 
-## Timeline
+## Technologies & Skills
 
-August 2025 - Present
+* **CAD & Design**: SolidWorks, Fusion 360
+* **Motion Control**: Custom G-Code pipeline development, 4-axis synchronization
+* **Analysis**: Tolerance budgeting, precision metrology, structural analysis
+* **Manufacturing**: High-precision fabrication and assembly
+
+**Timeline**: August 2025 - Present

@@ -8,48 +8,36 @@ date: 2025-08-01
 location: "Berkeley, CA"
 ---
 
-Developed autonomous robotics systems featuring advanced control algorithms and computer vision.
+Developed autonomous robotics systems implementing Model Predictive Control and computer vision for dynamic stabilization and navigation.
 
-## Project Overview
+## My Contributions
 
-A collection of robotics and automation projects demonstrating expertise in control systems, computer vision, and autonomous navigation.
+### Balancing Bot with Model Predictive Control
 
-## Balancing Bot with Model Predictive Control (MPC)
+* **Designed and implemented a self-balancing robot** using Model Predictive Control (MPC) algorithms for real-time dynamic stabilization, demonstrating advanced control theory application
 
-Designed and implemented a self-balancing robot using Model Predictive Control for real-time stabilization.
+* **Integrated sensor fusion and state estimation** to provide accurate feedback for the MPC controller, achieving stable balancing performance under varying conditions
 
-**Key Features:**
-* Real-time state estimation and control
-* MPC algorithm for dynamic stabilization
-* Sensor fusion for accurate state feedback
-* Hardware-software integration
+* **Executed complete hardware-software integration** from sensor selection through control algorithm deployment, creating a functional embedded robotics system
 
-## Autonomous Navigation Bot
+### Autonomous Navigation Bot with SLAM
 
-Developed an autonomous robot with simultaneous localization and mapping (SLAM) and CNN-based sign detection.
+* **Developed an autonomous navigation system** featuring simultaneous localization and mapping (SLAM) for real-time environment mapping and self-localization
 
-**Key Features:**
-* SLAM implementation for environment mapping and localization
-* Convolutional Neural Network (CNN) for visual sign recognition
-* Path planning and obstacle avoidance
-* Real-time decision making and navigation
+* **Implemented CNN-based visual sign recognition** using convolutional neural networks to enable the robot to detect and interpret visual cues in its environment
 
-## Technologies Used
+* **Integrated path planning and obstacle avoidance algorithms** enabling autonomous decision-making and safe navigation through dynamic environments
 
-* Programming: Python, C++, ROS2
-* Control Systems: Model Predictive Control (MPC)
-* Computer Vision: CNN, image processing
-* Navigation: SLAM algorithms
-* Robotics Framework: ROS2
+## About These Projects
 
-## Skills Demonstrated
+These robotics projects demonstrate expertise in control systems, computer vision, and autonomous navigation. The balancing bot showcases advanced control theory implementation with MPC, while the navigation bot combines SLAM algorithms with machine learning for autonomous operation.
 
-* Advanced control theory implementation
-* Machine learning for robotics
-* Real-time embedded systems
-* Sensor integration and fusion
-* Autonomous navigation algorithms
+## Technologies & Skills
 
-## Timeline
+* **Programming**: Python, C++, ROS2
+* **Control Systems**: Model Predictive Control (MPC), real-time state estimation
+* **Computer Vision**: CNN, image processing, visual recognition
+* **Navigation**: SLAM algorithms, path planning, obstacle avoidance
+* **Robotics**: Sensor fusion, embedded systems, hardware-software integration
 
-August 2025 - December 2025
+**Timeline**: August 2025 - December 2025

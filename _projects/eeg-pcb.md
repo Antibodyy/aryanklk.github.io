@@ -8,33 +8,25 @@ date: 2025-08-01
 location: "Berkeley, CA"
 ---
 
-Designed and debugged a custom PCB in KiCAD for high-sensitivity analog signal acquisition.
+Designed and fabricated a custom PCB for acquiring micro-volt level EEG signals with high noise immunity.
 
-## Project Overview
+## My Contributions
 
-Developed a complete printed circuit board solution for acquiring EEG (electroencephalography) signals, requiring careful attention to noise isolation and signal integrity at the micro-volt level.
+* **Designed complete PCB schematic and layout in KiCAD** using DFM-optimized design principles, ensuring manufacturability and reliable assembly for high-sensitivity analog circuits
 
-## Key Contributions
+* **Implemented multi-stage analog signal chain** with filtering and amplification to isolate micro-volt level EEG signals from ambient noise, achieving the sensitivity required for biomedical signal acquisition
 
-* **Custom PCB Design**: Designed full schematic and layout in KiCAD with DFM-optimized design principles
-* **Analog Signal Chain**: Implemented multi-stage filtering and amplification to isolate micro-volt signals from ambient noise
-* **Hands-On Prototyping**: Soldered 20+ SMD components and performed comprehensive board bring-up and debugging
-* **Signal Integrity**: Achieved functional requirements for high-sensitivity analog signal acquisition in noisy environments
+* **Fabricated and debugged the prototype board** by soldering 20+ SMD components and performing comprehensive bring-up testing, successfully validating the design for high-sensitivity signal acquisition in noisy environments
 
-## Technologies Used
+## About This Project
 
-* PCB Design: KiCAD
-* Circuit Design: Analog filtering, amplification stages
-* Manufacturing: SMD soldering, DFM optimization
-* Testing: Signal chain debugging, noise characterization
+This project involved developing a complete printed circuit board solution for acquiring EEG (electroencephalography) signals. The challenge required careful attention to noise isolation and signal integrity at the micro-volt level, demanding precise analog circuit design and PCB layout techniques.
 
-## Skills Demonstrated
+## Technologies & Skills
 
-* Analog circuit design
-* PCB layout and design for manufacturability
-* Hands-on prototyping and debugging
-* Signal integrity analysis
+* **PCB Design**: KiCAD (schematic capture, layout, DFM optimization)
+* **Circuit Design**: Analog filtering, multi-stage amplification, noise characterization
+* **Prototyping**: SMD soldering, board bring-up, signal chain debugging
+* **Analysis**: Signal integrity analysis, noise isolation techniques
 
-## Timeline
-
-August 2025 - December 2025
+**Timeline**: August 2025 - December 2025

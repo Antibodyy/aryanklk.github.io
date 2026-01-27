@@ -8,41 +8,27 @@ date: 2025-08-01
 location: "Berkeley, CA"
 ---
 
-Built a defective wafer classifier using machine learning on semiconductor sensor telemetry data.
+Built a machine learning classifier to detect defective semiconductor wafers from sensor telemetry data, automating quality control.
 
-## Project Overview
+## My Contributions
 
-Developed a machine learning model to classify defective semiconductor wafers based on sensor telemetry data, supporting quality control and yield optimization in semiconductor manufacturing.
+* **Developed classification models in Python** using TensorFlow and Scikit-learn to automatically identify defective wafers from production sensor data, reducing manual inspection requirements
 
-## Key Contributions
+* **Processed and analyzed semiconductor sensor telemetry data** including feature engineering and handling imbalanced datasets typical in manufacturing quality control applications
 
-* **ML Model Development**: Built classification models using Python with TensorFlow and Scikit-learn
-* **Data Analysis**: Processed and analyzed semiconductor sensor telemetry data
-* **Defect Detection**: Implemented algorithms to identify defective wafers from production data
-* **Model Evaluation**: Validated model performance using appropriate metrics for imbalanced classification
+* **Implemented and validated defect detection algorithms** using appropriate metrics for imbalanced classification, ensuring the model effectively identifies rare defect cases while minimizing false positives
 
-## Technologies Used
+* **Enabled early defect detection capabilities** that support yield optimization and process improvement in semiconductor manufacturing operations
 
-* Programming: Python
-* ML Frameworks: TensorFlow, Scikit-learn
-* Data Processing: Pandas, NumPy
-* Analysis: Feature engineering, model validation
+## About This Project
 
-## Application Domain
+This machine learning project addresses critical quality control needs in semiconductor manufacturing. By analyzing sensor telemetry data from wafer production, the model can automatically classify defective wafers, supporting yield improvement, reducing manual inspection requirements, and providing insights for process optimization.
 
-This project addresses critical needs in semiconductor manufacturing:
-* Quality control automation
-* Yield improvement through early defect detection
-* Reduction of manual inspection requirements
-* Process optimization insights
+## Technologies & Skills
 
-## Skills Demonstrated
+* **Programming**: Python (Pandas, NumPy)
+* **ML Frameworks**: TensorFlow, Scikit-learn
+* **Techniques**: Classification algorithms, feature engineering, imbalanced data handling
+* **Application**: Time-series analysis, sensor data processing, manufacturing quality control
 
-* Machine learning model development
-* Time-series and sensor data analysis
-* Classification algorithms
-* Python programming for ML applications
-
-## Timeline
-
-August 2025 - December 2025
+**Timeline**: August 2025 - December 2025
