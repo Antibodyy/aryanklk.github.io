@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)](/Aryan_kulkarni_resume.pdf){: .btn .btn--primary}
+<a href="/Aryan_kulkarni_resume.pdf" download="Aryan_Kulkarni_CV.pdf" class="btn btn--primary">Download CV (PDF)</a>
 
 Education
 ======
