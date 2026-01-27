@@ -4,8 +4,8 @@ collection: projects
 type: "Graduate Project"
 permalink: /projects/helical-manufacturing
 venue: "UC Berkeley"
-date: 2025-08-01
 location: "Berkeley, CA"
+order: 1
 ---
 
 Developing metrology systems, mechanical improvements, and motion control software for a large-format lithography-based 3D printing system.

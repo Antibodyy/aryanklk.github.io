@@ -4,7 +4,6 @@ collection: coursework
 type: "Workshop"
 permalink: /coursework/bicycal
 venue: "UC Berkeley"
-date: 2026-01-01
 location: "Berkeley, CA"
 ---
 

@@ -4,8 +4,8 @@ collection: projects
 type: "Graduate Project"
 permalink: /projects/eeg-pcb
 venue: "UC Berkeley"
-date: 2025-08-01
 location: "Berkeley, CA"
+order: 2
 ---
 
 Designed and fabricated a custom PCB for acquiring micro-volt level EEG signals with high noise immunity.

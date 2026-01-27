@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/Aryan_kulkarni_resume.pdf){: .btn .btn--primary}
+
 Education
 ======
 * **M.Eng. in Mechanical Engineering**, University of California, Berkeley, 2025-Present

@@ -1,10 +1,9 @@
 ---
-title: "Undergraduate Teaching Assistant - Heat Transfer Lab"
+title: "Undergraduate Teaching Assistant"
 collection: teaching
-type: "Lab Course"
-permalink: /teaching/2024-heat-transfer-lab
+type: "Heat Transfer Lab"
+permalink: /teaching/2024-heat-transfer-ta
 venue: "BITS Pilani"
-date: 2024-01-01
 location: "Pilani, India"
 ---
 

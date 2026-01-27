@@ -4,8 +4,8 @@ collection: projects
 type: "Graduate Project"
 permalink: /projects/semiconductor-defect-detection
 venue: "UC Berkeley"
-date: 2025-08-01
 location: "Berkeley, CA"
+order: 4
 ---
 
 Built a machine learning classifier to detect defective semiconductor wafers from sensor telemetry data, automating quality control.

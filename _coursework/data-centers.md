@@ -4,7 +4,6 @@ collection: coursework
 type: "Graduate Course"
 permalink: /coursework/data-centers
 venue: "UC Berkeley"
-date: 2026-01-01
 location: "Berkeley, CA"
 ---
 

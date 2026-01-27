@@ -4,8 +4,8 @@ collection: projects
 type: "Graduate Project"
 permalink: /projects/automation-projects
 venue: "UC Berkeley"
-date: 2025-08-01
 location: "Berkeley, CA"
+order: 5
 ---
 
 Developed autonomous robotics systems implementing Model Predictive Control and computer vision for dynamic stabilization and navigation.

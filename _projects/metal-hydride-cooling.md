@@ -4,8 +4,8 @@ collection: projects
 type: "Undergraduate Project"
 permalink: /projects/metal-hydride-cooling
 venue: "BITS Pilani"
-date: 2024-01-01
 location: "Pilani, India"
+order: 6
 ---
 
 Achieved 18.8% reduction in auxiliary cooling power for hydrogen fuel cell vehicles through novel metal hydride-based thermal management.
