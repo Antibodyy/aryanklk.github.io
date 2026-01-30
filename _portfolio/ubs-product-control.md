@@ -9,21 +9,21 @@ date_range: "January 2025 - June 2025"
 order: 1
 ---
 
-Supported daily P&L reporting and variance investigations for Capital Markets Financing trading books with run rates of $50k-$300k, ensuring accurate financial position reporting through T0 vs T+1 reconciliation and sub-attribute level analysis.
+Supported daily P&L reporting and variance investigations for Capital Markets Financing trading books.
 
 ## My Contributions
 
 ### Daily P&L Production & Validation
-* **Produced and validated T+1 P&L reports** for four major trading books (Global TERM Index, Inventory Management EM Index, Synthetic PB Index, and Synthetic Futures) with daily run rates ranging from $50k to $300k
+* **Produced T+1 P&L reports** for four major trading books with daily run rates ranging from $50k to $750k
 
 * **Performed Risk Sensitivity-based P&L estimation** comparing risk exposures against market movements to forecast preliminary T+1 figures, providing early indicators for trading desk review
 
-* **Executed critical preprocessing activities** including RFA timing adjustments, FX close regional timing corrections, and dividend AVI calculations to ensure accurate P&L consolidation from multiple source systems (Ledger, Geronimo, Sabre, COLT, Global One)
+* **Executed critical preprocessing activities** including RFA timing adjustments, FX close regional timing corrections, and dividend AVI calculations to ensure accurate P&L consolidation from multiple internal source systems
 
 ### Variance Investigation & Resolution
-* **Investigated T0 vs T+1 P&L variances down to sub-attribute level** (TV Decay, TV Underlying, TV Spot FX, TV Dividends, TV Equity Rate, Equity Spot, FX rates) to identify root causes of discrepancies between preliminary and actual P&L
+* **Investigated T0 vs T+1 P&L variances down to sub-attribute level** to identify root causes of discrepancies between preliminary and actual P&L
 
-* **Resolved breaks through ledger adjustments and system corrections**, coordinating with trading desk, middle office, and IT teams to validate figures and maintain data integrity across reporting systems (One View, SAP BO, RAM, Equity Consol, SCP, Hydra)
+* **Resolved breaks through ledger adjustments and system corrections**, coordinating with trading desk, middle office, and IT teams to validate figures and maintain data integrity across reporting systems
 
 * **Performed daily Mark-to-Market (MTM) P&L reconciliation**, validating end-of-day rates, valuations, funding charges, and internal fees to ensure accurate reflection of trading book positions
 
@@ -36,7 +36,7 @@ Supported daily P&L reporting and variance investigations for Capital Markets Fi
 
 <div class="notice--info">
   <h4>Role Context</h4>
-  <p><strong>Department:</strong> Capital Markets Financing (EMEA), Group Finance Aligned IB</p>
+  <p><strong>Department:</strong> Capital Markets Financing (EMEA), Group Finance Aligned Investment Bank</p>
   <p><strong>Supervisor:</strong> Mrs. Soumya Pandey, Associate Director</p>
   <p><strong>Duration:</strong> 6 months (January 27, 2025 - June 18, 2025)</p>
   <p><strong>Location:</strong> UBS Business Solutions India, Hyderabad</p>
@@ -62,11 +62,10 @@ The role involved three primary workflows:
 
 * Daily P&L reporting and reconciliation
 * Variance investigation and root cause analysis
-* Sub-attribute level financial analysis (MTM, TV Decay, FX, Dividends)
-* Multi-system data validation (Ledger, Geronimo, Sabre, COLT, One View, SAP BO)
+* Sub-attribute level financial analysis of various financial instruments (Stocks, FX Swaps, Dividends)
+* Multi-system data validation (Geronimo, Sabre, COLT, One View, SAP BO)
 * Cross-functional collaboration with trading desks, middle office, and IT
 * Financial controls and audit compliance
-* Process documentation and knowledge management
 
 ---
 
