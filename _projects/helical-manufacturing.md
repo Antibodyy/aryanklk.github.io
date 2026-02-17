@@ -30,3 +30,13 @@ HeliCAL is a cutting-edge additive manufacturing system that uses lithography-ba
 * **Manufacturing**: High-precision fabrication and assembly
 
 **Timeline**: August 2025 - Present
+
+## Gallery
+
+Below are photos from the HeliCAL project and system build:
+
+![HeliCAL system — overview](/helical1.png)
+
+![HeliCAL close-up — optics and stage](/helical2.png)
+
+![HeliCAL assembly — mechanical components](/helical3.jpeg)
