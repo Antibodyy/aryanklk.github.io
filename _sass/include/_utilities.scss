@@ -415,22 +415,27 @@ body:hover .visually-hidden button {
   justify-items: center;
 }
 
-.portfolio-gallery figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 260px;
+
+/* Inline/project images: keep natural aspect ratio (no fixed height) */
+.project-figure {
+  margin: 1rem 0;
+  text-align: center;
 }
 
-.portfolio-gallery img {
+.project-figure img {
   width: 100%;
-  max-width: 260px; /* slightly larger displayed size */
-  height: 180px; /* uniform thumbnail height */
-  object-fit: cover; /* crop to fit neatly */
+  max-width: 320px; /* limit how wide the image grows */
+  height: auto;    /* do not fix height — preserve aspect ratio */
   display: block;
   border-radius: 6px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.project-figure figcaption {
+  font-size: 0.85rem; /* slightly smaller */
+  font-style: italic; /* italicized per request */
+  color: var(--global-meta-color);
+  margin-top: 0.5rem;
 }
 
 .portfolio-gallery figcaption {

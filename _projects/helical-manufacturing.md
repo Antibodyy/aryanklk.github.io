@@ -10,6 +10,11 @@ order: 1
 
 Developing metrology systems, mechanical improvements, and motion control software for a large-format lithography-based 3D printing system.
 
+<figure class="project-figure">
+	<img src="{{ '/helical1.png' | relative_url }}" alt="HeliCAL">
+	<figcaption>HeliCAL</figcaption>
+</figure>
+
 ## My Contributions
 
 * **Designed and implemented a high-precision metrology system** with established tolerance budgeting to ensure sub-micron measurement accuracy across the large-format build area, enabling quality control for the manufacturing process
@@ -20,7 +25,13 @@ Developing metrology systems, mechanical improvements, and motion control softwa
 
 ## About HeliCAL
 
+
 HeliCAL is a cutting-edge additive manufacturing system that uses lithography-based projection techniques to enable large-format, high-precision 3D printing. The system combines optical projection with synchronized motion control to build parts with sub-micron accuracy at scales beyond conventional lithography systems.
+
+<figure class="project-figure">
+	<img src="{{ '/helical2.png' | relative_url }}" alt="Optical Scanning Tomography-based Metrology Setup">
+	<figcaption>Optical Scanning Tomography-based Metrology Setup</figcaption>
+</figure>
 
 ## Technologies & Skills
 
@@ -29,25 +40,10 @@ HeliCAL is a cutting-edge additive manufacturing system that uses lithography-ba
 * **Analysis**: Tolerance budgeting, precision metrology, structural analysis
 * **Manufacturing**: High-precision fabrication and assembly
 
+<figure class="project-figure">
+  <img src="{{ '/helical3.jpeg' | relative_url }}" alt="Resin Dental Aligner Prints from HeliCAL">
+  <figcaption>Resin Dental Aligner Prints from HeliCAL</figcaption>
+</figure>
+
 **Timeline**: August 2025 - Present
-
-## Gallery
-
-Below are photos from the HeliCAL project and system build:
-
-<div class="portfolio-gallery">
 	<figure>
-		<img src="{{ '/helical1.png' | relative_url }}" alt="HeliCAL">
-		<figcaption>HeliCAL</figcaption>
-	</figure>
-
-	<figure>
-		<img src="{{ '/helical2.png' | relative_url }}" alt="Optical Scanning Tomography-based Metrology Setup">
-		<figcaption>Optical Scanning Tomography-based Metrology Setup</figcaption>
-	</figure>
-
-	<figure>
-		<img src="{{ '/helical3.jpeg' | relative_url }}" alt="Resin Dental Aligner Prints from HeliCAL">
-		<figcaption>Resin Dental Aligner Prints from HeliCAL</figcaption>
-	</figure>
-</div>
