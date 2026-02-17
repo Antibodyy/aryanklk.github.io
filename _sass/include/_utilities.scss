@@ -409,14 +409,15 @@ body:hover .visually-hidden button {
 /* Portfolio gallery: responsive 3-column grid that stacks on small screens */
 .portfolio-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin: 1.5rem 0;
+  justify-items: center;
 }
 
 .portfolio-gallery img {
   width: 100%;
-  max-width: 360px; /* limit displayed size */
+  max-width: 200px; /* smaller displayed size */
   height: auto;
   display: block;
   border-radius: 4px;
