@@ -35,8 +35,19 @@ HeliCAL is a cutting-edge additive manufacturing system that uses lithography-ba
 
 Below are photos from the HeliCAL project and system build:
 
-![HeliCAL system — overview](/helical1.png)
+<div class="portfolio-gallery">
+	<figure>
+		<img src="{{ '/helical1.png' | relative_url }}" alt="HeliCAL system — overview">
+		<figcaption>HeliCAL system — overview</figcaption>
+	</figure>
 
-![HeliCAL close-up — optics and stage](/helical2.png)
+	<figure>
+		<img src="{{ '/helical2.png' | relative_url }}" alt="HeliCAL close-up — optics and stage">
+		<figcaption>HeliCAL close-up — optics and stage</figcaption>
+	</figure>
 
-![HeliCAL assembly — mechanical components](/helical3.jpeg)
+	<figure>
+		<img src="{{ '/helical3.jpeg' | relative_url }}" alt="HeliCAL assembly — mechanical components">
+		<figcaption>HeliCAL assembly — mechanical components</figcaption>
+	</figure>
+</div>
