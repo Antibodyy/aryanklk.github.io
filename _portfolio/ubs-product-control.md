@@ -42,13 +42,14 @@ The P&L production process is a rigorous cycle involving close coordination betw
 
 The following presentation summarizes my key contributions, process improvements, and technical learnings during the 6-month tenure at UBS.
 
-<div style="width: 100%; height: 500px; margin-bottom: 30px; border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
-    <iframe 
-        src="https://view.officeapps.live.com/op/view.aspx?src={{ 'https://YOUR-USER-NAME.github.io/assets/presn_a.pptx' | URLEncoded }}" 
+<div style="width: 100%; height: 600px; margin-bottom: 30px; border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <embed 
+        src="{{ '/assets/presn_a.pdf' | relative_url }}" 
+        type="application/pdf" 
         width="100%" 
         height="100%" 
-        frameborder="0">
-    </iframe>
+    />
 </div>
+---
 
 **Timeline**: January 27, 2025 - June 18, 2025 (6 months)
