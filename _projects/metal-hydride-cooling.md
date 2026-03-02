@@ -32,8 +32,16 @@ The high-level functioning plan outlines the synchronization between hydrogen fl
 
 ## Modeling & Simulation
 
-### Simulink System Model
-The core of the project involved building a high-fidelity Simulink model using **Hydralloy C2** as the primary metal hydride material to simulate real-world thermal loads.
+### US DoE Model Integration
+To ensure industry-standard validity, the system was integrated into the **US Department of Energy's FCEV Simulink reference model**, allowing for system-level energy analysis.
+
+<figure style="text-align: center; margin: 0 auto 30px auto; display: block; width: 100%;">
+    <img src="{{ '/usdoe.png' | relative_url }}" alt="US DoE Model Integration" style="max-width: 90%; height: auto; display: inline-block; border-radius: 8px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 10px; color: #666;"><em>Integration architecture with the US DoE Simulink FCEV reference model.</em></figcaption>
+</figure>
+
+### Simulink Core Material Model
+The core of the project involved building a high-fidelity Simulink model using **Hydralloy C2** to simulate real-world thermal loads and material response.
 
 <figure style="text-align: center; margin: 0 auto 30px auto; display: block; width: 100%;">
     <img src="{{ '/hydc2_ovr.png' | relative_url }}" alt="Simulink Core Model" style="max-width: 90%; height: auto; display: inline-block; border-radius: 8px; border: 1px solid #eee;">
@@ -52,7 +60,7 @@ To ensure efficient heat transfer, the internal control system of each individua
 
 ## Experimental Validation
 
-The following results compare our simulation data against experimental benchmarks for both the dehydration and hydration phases, confirming the accuracy of the thermodynamic modeling.
+The following results compare our simulation data against experimental benchmarks for both the dehydration and hydration phases.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2%; margin: 20px 0; width: 100%;">
     <div style="width: 49%; text-align: center;">
