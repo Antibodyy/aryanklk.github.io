@@ -1,43 +1,77 @@
 ---
-title: "Robotics & Automation Projects"
+title: "Two-Wheeled Balancing Robot (MPC Control)"
 collection: projects
 type: "Graduate Project"
-permalink: /projects/automation-projects
+permalink: /projects/balancing-robot
 venue: "UC Berkeley"
 location: "Berkeley, CA"
 order: 5
 ---
 
-Developed autonomous robotics systems implementing Model Predictive Control and computer vision for dynamic stabilization and navigation.
+Developed a high-performance self-balancing robotics system in the MuJoCo physics environment, implementing Model Predictive Control (MPC) for dynamic stabilization and trajectory tracking. This project highlights the intersection of advanced control theory and embedded systems integration.
 
-## My Contributions
+## System Architecture
 
-### Balancing Bot with Model Predictive Control
+The interaction between the physical dynamics (simulated in MuJoCo) and the software control loop is visualized below:
 
-* **Designed and implemented a self-balancing robot** using Model Predictive Control (MPC) algorithms for real-time dynamic stabilization, demonstrating advanced control theory application
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/images/overall_arch.png" alt="System Architecture Flowchart" style="width: 80%; display: block; margin: 0 auto;">
+  <p><i>Figure 1: Overall hardware-software interaction architecture.</i></p>
+</div>
 
-* **Integrated sensor fusion and state estimation** to provide accurate feedback for the MPC controller, achieving stable balancing performance under varying conditions
+---
 
-* **Executed complete hardware-software integration** from sensor selection through control algorithm deployment, creating a functional embedded robotics system
+## Performance & Simulation Results
 
-### Autonomous Navigation Bot with SLAM
+### 1. Autonomous Start and Stop
+The robot demonstrates smooth acceleration and deceleration while maintaining vertical stability. The accompanying graph shows the high correlation between predicted velocity and actual performance.
 
-* **Developed an autonomous navigation system** featuring simultaneous localization and mapping (SLAM) for real-time environment mapping and self-localization
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/start_stop.gif" alt="Start/Stop Simulation" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/drive_stop_prediction_acc.png" alt="Drive/Stop Accuracy Graph" style="width: 100%; border-radius: 8px;">
+  </div>
+</div>
 
-* **Implemented CNN-based visual sign recognition** using convolutional neural networks to enable the robot to detect and interpret visual cues in its environment
+### 2. Perturbation Recovery
+To test the robustness of the MPC controller, external forces were applied to the robot. The system successfully estimates the state deviation and applies corrective torque to return to an upright position.
 
-* **Integrated path planning and obstacle avoidance algorithms** enabling autonomous decision-making and safe navigation through dynamic environments
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/perturb_rec.gif" alt="Perturbation Recovery" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/pitch_prediction_acc.png" alt="Pitch Prediction Accuracy" style="width: 100%; border-radius: 8px;">
+  </div>
+</div>
 
-## About These Projects
+### 3. Slope Balancing
+The robot is capable of maintaining its center of gravity even when navigating inclined surfaces, showcasing the adaptability of the sensor fusion and state estimation algorithms.
 
-These robotics projects demonstrate expertise in control systems, computer vision, and autonomous navigation. The balancing bot showcases advanced control theory implementation with MPC, while the navigation bot combines SLAM algorithms with machine learning for autonomous operation.
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/slope_bal.gif" alt="Slope Balancing" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/images/slope_stab_perf.png" alt="Slope Stability Performance" style="width: 100%; border-radius: 8px;">
+  </div>
+</div>
+
+---
+
+## Technical Contributions
+
+* **MPC Implementation**: Designed and implemented a self-balancing algorithm using Model Predictive Control for real-time stabilization.
+* **Sensor Fusion**: Integrated state estimation to provide accurate feedback for the MPC controller, ensuring stability under varying conditions.
+* **MuJoCo Simulation**: Executed complete hardware-software logic within a high-fidelity physics engine before deployment considerations.
 
 ## Technologies & Skills
 
 * **Programming**: Python, C++, ROS2
-* **Control Systems**: Model Predictive Control (MPC), real-time state estimation
-* **Computer Vision**: CNN, image processing, visual recognition
-* **Navigation**: SLAM algorithms, path planning, obstacle avoidance
+* **Control Systems**: Model Predictive Control (MPC), State Estimation
+* **Physics Engines**: MuJoCo
 * **Robotics**: Sensor fusion, embedded systems, hardware-software integration
 
 **Timeline**: August 2025 - December 2025
