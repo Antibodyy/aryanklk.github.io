@@ -10,26 +10,24 @@ order: 3
 
 Developed computational models and optimization algorithms for advanced manufacturing processes including robotic 3D printing, laser heating, and multi-physics simulations.
 
-## My Contributions
+## 1. Modeling Robotic Arm-based 3D Printing
 
-* **Implemented optimization algorithms** including Newton's Method with PyTorch automatic differentiation and Genetic Algorithms with parent selection and crossover breeding, comparing convergence behavior and demonstrating rapid minimization of complex manufacturing cost functions with sub-micron tolerance
+This module focused on the physics-based simulation of an Additive Manufacturing (AM) system. The model accounts for the multi-link kinematics of the robotic arm, the electrodynamic forces acting on the material droplets, and the fluid dynamics governing deposition.
 
-* **Modeled robotic 3D printing systems** by developing forward kinematics for multi-link robot arms, computing droplet dynamics under electromagnetic forces and drag, and implementing Forward Euler time-stepping to simulate material deposition with electrodynamic field control for precise pattern formation
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2%; margin: 20px 0; width: 100%;">
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/robotic_arm_printer.png' | relative_url }}" alt="Robotic Arm AM Diagram" style="width: 100%; height: 300px; object-fit: contain; background: #fff; border-radius: 8px; border: 1px solid #eee;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Schematic of the modeled Arm-based AM System</em></p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/robotic_3D_printer.gif' | relative_url }}" alt="Robotic 3D Printer Simulation" style="width: 100%; height: 300px; object-fit: contain; background: #000; border-radius: 8px;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Deposition Simulation & Pattern Formation</em></p>
+    </div>
+</div>
 
-* **Simulated laser-based manufacturing processes** including thermal propagation in multi-material systems, implementing Beer-Lambert absorption models and Joule heating optimization to predict temperature distributions and optimize processing parameters for laser sintering and melting applications
+### Key Technical Implementations:
+* Modeled robotic 3D printing systems by developing forward kinematics for multi-link robot arms, computing droplet dynamics under electromagnetic forces and drag.
+* Implemented Forward Euler time-stepping to simulate material deposition with electrodynamic field control for precise pattern formation.
+* Analyzed multi-physics phenomena combining electromagnetic field interactions and fluid dynamics (Reynolds number-dependent drag) to enable predictive modeling.
 
-* **Analyzed multi-physics manufacturing phenomena** combining electromagnetic field interactions, fluid dynamics (Reynolds number-dependent drag), and thermal transport to enable predictive modeling and parameter optimization for digital twin applications in advanced manufacturing
-
-## About This Course
-
-This graduate course (MEC201: Modeling and Simulation of Advanced Manufacturing Processes) covered computational methods for analyzing and optimizing modern manufacturing systems. Course projects progressed from fundamental optimization techniques through complex multi-physics simulations of robotic additive manufacturing, laser processing, and electromagnetic material manipulation, emphasizing practical Python implementation for real-world manufacturing applications.
-
-## Technologies & Skills
-
-* **Programming**: Python, NumPy, Matplotlib (simulation and visualization)
-* **Computational Methods**: Forward Euler time-stepping, automatic differentiation (PyTorch), numerical optimization
-* **Physics Modeling**: Robot kinematics, electromagnetic forces, drag forces, thermal propagation, Beer-Lambert law
-* **Optimization**: Newton's Method, Genetic Algorithms, gradient-based methods, cost function minimization
-* **Applications**: 3D printing simulation, laser heating, digital twins, manufacturing parameter optimization
-
-**Timeline**: August 2025 - December 2025
+---
