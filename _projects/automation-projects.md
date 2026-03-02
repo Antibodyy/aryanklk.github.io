@@ -1,5 +1,5 @@
 ---
-title: "Two-Wheeled Balancing Robot (MPC Control)"
+title: "Two-Wheeled Balancing Robot using Model Predictive Control"
 collection: projects
 type: "Graduate Project"
 permalink: /projects/balancing-robot
@@ -12,57 +12,59 @@ Developed a high-performance self-balancing robotics system in the MuJoCo physic
 
 ## System Architecture
 
-The following flowchart illustrates the closed-loop interaction between the physical dynamics (simulated in MuJoCo) and the software control loop.
+The following flowchart illustrates the closed-loop interaction between the physical dynamics and the software control loop.
 
-<figure class="project-figure" style="text-align: center; margin: 0 auto 20px auto; display: block;">
-    <img src="{{ '/overall_arch.png' | relative_url }}" alt="System Architecture Flowchart" style="display: block; margin: 0 auto; max-width: 100%;">
-    <figcaption style="text-align: center; margin-top: 8px;"><em>Figure 1: Overall hardware-software interaction architecture.</em></figcaption>
+<figure style="text-align: center; margin: 0 auto 30px auto; display: block; width: 100%;">
+    <img src="{{ '/overall_arch.png' | relative_url }}" alt="System Architecture" style="max-width: 85%; height: auto; display: inline-block; border-radius: 8px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 10px; color: #666;"><em>Figure 1: Overall hardware-software interaction architecture.</em></figcaption>
 </figure>
 
-## Performance & Simulation Results
+---
+
+## Simulation Performance
 
 All simulations were conducted within the MuJoCo environment to validate the MPC controller's response to dynamic conditions.
 
 ### 1. Autonomous Start and Stop
-The robot demonstrates smooth acceleration and deceleration while maintaining vertical stability. The graph shows the high correlation between predicted velocity and actual performance.
+The robot demonstrates smooth acceleration while maintaining vertical stability.
 
-<div style="display: flex; justify-content: center; gap: 20px; text-align: center; margin: 20px 0;">
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/start_stop.gif' | relative_url }}" alt="Autonomous Start Stop Simulation" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Autonomous Start/Stop Simulation</em></figcaption>
-    </figure>
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/drive_stop_prediction_acc.png' | relative_url }}" alt="Drive Stop Prediction Accuracy" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Drive/Stop Prediction Accuracy</em></figcaption>
-    </figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2%; margin: 20px 0; width: 100%;">
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/start_stop.gif' | relative_url }}" alt="Start Stop" style="width: 100%; height: 250px; object-fit: contain; background: #000; border-radius: 8px;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Autonomous Start/Stop Simulation</em></p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/drive_stop_prediction_acc.png' | relative_url }}" alt="Accuracy" style="width: 100%; height: 250px; object-fit: contain; background: #fff; border-radius: 8px; border: 1px solid #eee;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Drive/Stop Prediction Accuracy</em></p>
+    </div>
 </div>
 
 ### 2. Perturbation Recovery
-To test the robustness of the MPC controller, external forces were applied to the robot. The system successfully estimates the state deviation and applies corrective torque to return to an upright position.
+External forces were applied to test robustness; the system successfully returns to an upright position.
 
-<div style="display: flex; justify-content: center; gap: 20px; text-align: center; margin: 20px 0;">
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/perturb_rec.gif' | relative_url }}" alt="Perturbation Recovery Simulation" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Perturbation Recovery Simulation</em></figcaption>
-    </figure>
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/pitch_prediction_acc.png' | relative_url }}" alt="Pitch Prediction Accuracy Performance" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Pitch Prediction Performance</em></figcaption>
-    </figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2%; margin: 20px 0; width: 100%;">
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/perturb_rec.gif' | relative_url }}" alt="Perturbation" style="width: 100%; height: 250px; object-fit: contain; background: #000; border-radius: 8px;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Perturbation Recovery Simulation</em></p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/pitch_prediction_acc.png' | relative_url }}" alt="Pitch Performance" style="width: 100%; height: 250px; object-fit: contain; background: #fff; border-radius: 8px; border: 1px solid #eee;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Pitch Prediction Performance</em></p>
+    </div>
 </div>
 
 ### 3. Slope Balancing
-The robot is capable of maintaining its center of gravity even when navigating inclined surfaces, showcasing the adaptability of the sensor fusion and state estimation algorithms.
+The robot maintains its center of gravity when navigating inclined surfaces.
 
-<div style="display: flex; justify-content: center; gap: 20px; text-align: center; margin: 20px 0;">
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/slope_bal.gif' | relative_url }}" alt="Slope Balancing Simulation" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Slope Stability Simulation</em></figcaption>
-    </figure>
-    <figure class="project-figure" style="margin: 0; flex: 1;">
-        <img src="{{ '/slope_stab_perf.png' | relative_url }}" alt="Slope Stability Performance Graph" style="max-width: 100%; height: auto;">
-        <figcaption style="margin-top: 8px;"><em>Slope Stability Performance Graph</em></figcaption>
-    </figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2%; margin: 20px 0; width: 100%;">
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/slope_bal.gif' | relative_url }}" alt="Slope Bal" style="width: 100%; height: 250px; object-fit: contain; background: #000; border-radius: 8px;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Slope Stability Simulation</em></p>
+    </div>
+    <div style="width: 49%; text-align: center;">
+        <img src="{{ '/slope_stab_perf.png' | relative_url }}" alt="Slope Perf" style="width: 100%; height: 250px; object-fit: contain; background: #fff; border-radius: 8px; border: 1px solid #eee;">
+        <p style="margin-top: 10px; font-size: 0.9em;"><em>Slope Stability Performance Graph</em></p>
+    </div>
 </div>
 
 ---
@@ -77,8 +79,8 @@ The robot is capable of maintaining its center of gravity even when navigating i
 
 * **Programming**: Python, C++, ROS2
 * **Control Systems**: Model Predictive Control (MPC), State Estimation
-* **Physics Engines**: MuJoCo
-* **Robotics**: Sensor fusion, Embedded systems, Hardware-software integration
+* **Simulation**: MuJoCo
+* **Robotics**: Sensor fusion, Embedded systems
 
 ---
 
